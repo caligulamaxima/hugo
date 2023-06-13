@@ -1,11 +1,9 @@
 ---
 title: Configure Markup
 description: How to handle Markdown and other markup related configuration.
-date: 2019-11-15
 categories: [getting started,fundamentals]
 keywords: [configuration,highlighting]
 weight: 65
-sections_weight: 65
 slug: configuration-markup
 toc: true
 ---
@@ -32,7 +30,7 @@ For details on the extensions, refer to [this section](https://github.com/yuin/g
 
 Some settings explained:
 
-hardWrap
+hardWraps
 : By default, Goldmark ignores newlines within a paragraph. Set to `true` to render newlines as `<br>` elements.
 
 unsafe

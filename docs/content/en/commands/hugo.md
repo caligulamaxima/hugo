@@ -27,7 +27,7 @@ hugo [flags]
   -D, --buildDrafts                include content marked as draft
   -E, --buildExpired               include expired content
   -F, --buildFuture                include content with publishdate in the future
-      --cacheDir string            filesystem path to cache directory. Defaults: $TMPDIR/hugo_cache/
+      --cacheDir string            filesystem path to cache directory. Defaults: $TMPDIR/hugo_cache_$USER/
       --cleanDestinationDir        remove files from destination not found in static directories
       --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
       --config string              config file (default is hugo.yaml|json|toml)
@@ -82,5 +82,5 @@ hugo [flags]
 * [hugo mod](/commands/hugo_mod/)	 - Various Hugo Modules helpers.
 * [hugo new](/commands/hugo_new/)	 - Create new content for your site
 * [hugo server](/commands/hugo_server/)	 - A high performance webserver
-* [hugo version](/commands/hugo_version/)	 - Print the version number of Hugo
+* [hugo version](/commands/hugo_version/)	 - Print Hugo version and environment info
 
